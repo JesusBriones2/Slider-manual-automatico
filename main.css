@@ -1,0 +1,65 @@
+/* Configurar estilos de forma global */
+* { padding: 0; margin: 0; box-sizing: border-box;}
+img { max-width: 100%; }
+
+/* frame contenedor */
+.frame {
+	width: 90%;
+	max-width: 700px;
+	height: 300px;
+	background: #000;
+	margin: 50px  auto;
+	position: relative;
+	overflow: hidden;
+	outline: 5px solid #000;
+	user-select: none;
+}
+
+
+/* botones  */
+.frame__btn {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 50px;
+	font-size: 50px;
+	font-family: monospace;
+	color: #aaa;
+	background: #0006;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: transform .3s;
+	z-index: 1;
+}
+
+.frame__btn:nth-child(1) {
+	left: 0;
+	transform: translateX(-100%);
+}
+
+.frame__btn:nth-child(2) {
+	right: 0;
+	transform: translateX(100%);
+}
+
+.frame:hover > .frame__btn:nth-child(1),
+.frame:hover > .frame__btn:nth-child(2)
+{ transform: translateX(0); }
+
+.frame__btn:hover { color: #fff; }
+.frame__btn:active { background: #000b; }
+
+/* imagenes */
+.frame__container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	transform: translateX(-100%);
+}
+
+.frame__container-img {
+	min-width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
