@@ -1,4 +1,4 @@
-# Control dezlisante manual y automatico.
+# Control deslizante manual y automatico.
 
 * https://jesusbriones2.github.io/manual_and_automatic_slider/
 
