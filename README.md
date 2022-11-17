@@ -1,5 +1,4 @@
-# Manual and automatic slider
-Diseño de un slider manual y automatizado.
+# Control dezlisante manual y automatico.
 
 * https://jesusbriones2.github.io/manual_and_automatic_slider/
 
