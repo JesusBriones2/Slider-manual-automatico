@@ -1,33 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Manual and automatic slider </title>
-	<link rel="stylesheet" href="main.css">
-</head>
-<body>
-	
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control deslizante - Manual y automático</title>
+    <link rel="stylesheet" href="public/css/main.css" />
+    <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script defer src="public/js/main.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Control deslizante - Manual y automático</h1>
 
-	<div class="frame">
-		<button class="frame__btn"><</button>
-		<button class="frame__btn">></button>
-		<div class="frame__container" id="frame_container">
-			<img src="img/image1.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image2.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image3.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image4.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image5.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image6.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image7.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image8.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image9.jpg" alt="Paisaje" class="frame__container-img">
-			<img src="img/image10.jpg" alt="Paisaje" class="frame__container-img">
-		</div>
-	</div>
-
-
-	<script src="script.js"></script>
-
-</body>
+    <section class="container-slider">
+      <div class="slider" id="slider">
+        <i class="fa-solid fa-chevron-left slider__btn"></i>
+        <div class="slider__frame">
+          <div class="slider__images">
+            <img
+              src="public/img/image1.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+            <img
+              src="public/img/image2.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+            <img
+              src="public/img/image3.jpg"
+              alt="Paisaje"
+              class="slider__image slider__image--show"
+            />
+            <img
+              src="public/img/image4.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+            <img
+              src="public/img/image5.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+            <img
+              src="public/img/image6.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+            <img
+              src="public/img/image7.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+            <img
+              src="public/img/image8.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+            <img
+              src="public/img/image9.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+            <img
+              src="public/img/image10.jpg"
+              alt="Paisaje"
+              class="slider__image"
+            />
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right slider__btn"></i>
+      </div>
+    </section>
+  </body>
 </html>
