@@ -1,5 +1,19 @@
-# Control deslizante manual y automatico.
+# Control Deslizante Manual y Automático
 
-* https://jesusbriones2.github.io/manual-and-automatic-slider/
+Control deslizante (slider) que permite la navegación de imágenes de forma manual y automática.
 
-![Page capture](page_capture.png "Page capture")
+---
+<a href="https://jesusbriones2.github.io/manual-and-automatic-slider/" target="_blank">Control Deslizante Manual y Automático</a>
+
+![Captura de la Página](public/readme.png "Captura de la Página")
+
+## Características
+
+- Navegación manual y automática.
+- Animaciones suaves y optimizadas.
+
+## Tecnologías Utilizadas
+
+- HTML
+- CSS
+- JavaScript
